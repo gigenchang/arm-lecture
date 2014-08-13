@@ -1,0 +1,6 @@
+target extended-remote :1234
+b 11
+c
+set number=10
+display number
+c
